@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Rubik+Bubbles&family=Satisfy&family=Space+Grotesk:wght@300&display=swap');
+body{
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+}
+div{
+    background: rgb(142, 22, 22);
+    color: yellow;
+    font-family: 'Kolker Brush', cursive;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+
+}
+.blackBackground{
+    background: #838383;
+    color: white;
+}
+#sampleId{
+    color: pink;
+}
+.sampleBox{
+    background: navy;
+    margin: 10px 20px 30px 40px;
+    padding: 40px;
+    border: 10px outset goldenrod;
+    -webkit-box-shadow: -23px -15px 29px -15px rgba(37,179,230,0.71);
+    -moz-box-shadow: -23px -15px 29px -15px rgba(37,179,230,0.71);
+    box-shadow: -23px -15px 29px -15px rgba(37,179,230,0.71);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.overflowSample{
+    width: 500px;
+    height: 250px;
+    overflow: scroll;
+    text-indent: 20px;
+}
